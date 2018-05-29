@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "A demo VuePress site",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build .",
-    "deploy": "push-dir --dir=.vuepress/dist --branch=gh-pages --cleanup"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "author": "Flipbox Digital",
   "license": "MIT",
   "devDependencies": {
-    "push-dir": "^0.4.1",
     "vuepress": "^0.10.0"
   }
 }

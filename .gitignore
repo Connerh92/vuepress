@@ -8,8 +8,5 @@ node_modules
 npm-debug.log
 yarn-error.log
 
-# VuePress dist
-.vuepress/dist
-
 #sys
 .DS_Store
