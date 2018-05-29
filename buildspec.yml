@@ -15,5 +15,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - .vuepress/dist/**/*.*
-  base-directory: .vuepress/dist
+    - .vuepress/**/*.*
+  base-directory: dist
