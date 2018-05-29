@@ -16,4 +16,4 @@ phases:
 artifacts:
   files:
     - .vuepress/dist/**/*.*
-  discard-paths: yes
+  base-directory: .vuepress/dist
