@@ -34,10 +34,19 @@ module.exports = {
                     title: 'Configuring',
                     collapsable: false,
                     children: [
-                        '/configure/',
-                        '/configure/organizations',
-                        '/configure/organization-types',
-                        '/configure/user-types'
+                        ['/configure/',  'Overview'],
+                        ['/configure/organizations', 'Organizations'],
+                        ['/configure/organization-types', 'Organization Types'],
+                        ['/configure/user-types', 'User Types']
+                    ]
+                },
+                {
+                    title: 'Objects',
+                    collapsable: false,
+                    children: [
+                        ['/objects/organization', 'Organization'],
+                        ['/objects/organization-type', 'Organization Type'],
+                        // ['/objects/user-type', 'User Type']
                     ]
                 }
             ]
