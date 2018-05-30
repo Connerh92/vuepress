@@ -3,17 +3,19 @@
 While templating, you may access the following public attributes and methods on a [Organization Element].
 
 ## Public Properties
-All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html) public properties are available.  In addition, the following properties are also available:
+All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html#public-properties) public properties are available.  In addition, the following properties are also available:
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `state`               | [string]|[null]                       | The organization's state (custom defined)
-| `dateJoined`          | [DateTime]|[null]                     | The date the organization joined
+| `state`               | [string] | [null]                       | The organization's state (custom defined)
+| `dateJoined`          | [DateTime] | [null]                     | The date the organization joined
 
 
 
-## Methods
-All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html) public methods are available.  In addition, the following methods are also available:
+## Public Methods
+All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html#public-methods) public methods are available.  In addition, the following methods are also available:
+
+[[toc]]
 
 ### `getUsers( $criteria = [] )` 
 
@@ -90,11 +92,11 @@ foreach ($types as $type) {
 
 ### `getType( $identifier )`
 
-Returns: [Organization Type]|[null]
+Returns: [Organization Type] | [null]
 
 | Argument          | Accepts                   | Description
 | ----------        | ----------                | ----------
-| `$identifier`     | [string]|[integer]|[null] | [Organization Type] criteria
+| `$identifier`     | [string] | [integer] | [null] | [Organization Type] criteria
 
 ::: code
 ```twig
@@ -118,7 +120,7 @@ $type = $element->getType('technology');
 
 ### `getPrimaryType()`
 
-Returns: [Organization Type]|[null]
+Returns: [Organization Type] | [null]
 
 ::: code
 ```twig
@@ -141,7 +143,7 @@ $type = $element->getPrimaryType();
 
 ### `getActiveType()`
 
-Returns: [Organization Type]|[null]
+Returns: [Organization Type] | [null]
 
 ::: code
 ```twig
@@ -163,6 +165,7 @@ $type = $element->getActiveType();
 :::
 
 [integer]: http://www.php.net/language.types.integer "Integer"
+[array]: http://www.php.net/language.types.array "Array"
 [string]: http://www.php.net/language.types.string "String"
 [null]: http://www.php.net/language.types.null "Null"
 [DateTime]: http://php.net/manual/en/class.datetime.php "DateTime"
