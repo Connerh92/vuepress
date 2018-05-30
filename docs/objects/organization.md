@@ -2,23 +2,26 @@
 
 While templating, you may access the following public attributes and methods on a [Organization Element].
 
-## Properties
+## Public Properties
 All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html) public properties are available.  In addition, the following properties are also available:
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `state`               | `[string]`|`[null]`                   | The organization's state (custom defined) |
-| `dateJoined`          | `[DateTime]`|`[null]`                 | The date the organization joined
+| `state`               | [string]|[null]                       | The organization's state (custom defined)
+| `dateJoined`          | [DateTime]|[null]                     | The date the organization joined
 
-[integer]: http://www.php.net/language.types.integer
-[string]: http://www.php.net/language.types.string
-[null]: http://www.php.net/language.types.null
-[DateTime]: http://php.net/manual/en/class.datetime.php
+
 
 ## Methods
 All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html) public methods are available.  In addition, the following methods are also available:
 
-### `getUsers( $criteria = [] ): [User Query]`
+### `getUsers( $criteria = [] )` 
+
+Returns: [User Query]
+
+| Argument          | Accepts                   | Description
+| ----------        | ----------                | ----------
+| `$criteria`       | [array]                   | [User Query] criteria
 
 ::: code
 ```twig
@@ -49,7 +52,13 @@ foreach ($users as $user) {
 :::
 
 
-### `getTypes( $criteria = [] ): [Organization Type Query]`
+### `getTypes( $criteria = [] )`
+
+Returns: [Organization Type Query]
+
+| Argument          | Accepts                   | Description
+| ----------        | ----------                | ----------
+| `$criteria`       | [array]                   | [Organization Type Query] criteria
 
 ::: code
 ```twig
@@ -79,8 +88,13 @@ foreach ($types as $type) {
 ```
 :::
 
+### `getType( $identifier )`
 
-### `getType( $identifier ): [Organization Type]`
+Returns: [Organization Type]|[null]
+
+| Argument          | Accepts                   | Description
+| ----------        | ----------                | ----------
+| `$identifier`     | [string]|[integer]|[null] | [Organization Type] criteria
 
 ::: code
 ```twig
@@ -102,7 +116,9 @@ $type = $element->getType('technology');
 :::
 
 
-### `getPrimaryType(): [Organization Type]`
+### `getPrimaryType()`
+
+Returns: [Organization Type]|[null]
 
 ::: code
 ```twig
@@ -122,6 +138,34 @@ $element = Organizations::getInstance()->getOrganizations()->get([
 $type = $element->getPrimaryType();
 ```
 :::
+
+### `getActiveType()`
+
+Returns: [Organization Type]|[null]
+
+::: code
+```twig
+{% set element = craft.organizations.elements.find('flipbox') %} // Get an Organization Element
+{% set type = element.getActiveType() %}
+<p>{{ type.id }} - <strong>{{ type.name }}</strong></p>
+```
+
+```php
+use flipbox\organizations\Organizations;
+
+$element = Organizations::getInstance()->getOrganizations()->get([
+    'slug' => 'flipbox'
+]);
+
+/** @var /flipbox/organizations/records/OrganizationType $type */
+$type = $element->getActiveType();
+```
+:::
+
+[integer]: http://www.php.net/language.types.integer "Integer"
+[string]: http://www.php.net/language.types.string "String"
+[null]: http://www.php.net/language.types.null "Null"
+[DateTime]: http://php.net/manual/en/class.datetime.php "DateTime"
 
 [User]: https://docs.craftcms.com/api/v3/craft-elements-user.html "User Element"
 [User Query]: https://docs.craftcms.com/api/v3/craft-elements-db-userquery.html "User Query"
