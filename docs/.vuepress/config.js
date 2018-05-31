@@ -34,8 +34,7 @@ module.exports = {
                     title: 'Configuring',
                     collapsable: false,
                     children: [
-                        ['/configure/',  'Overview'],
-                        ['/configure/organizations', 'Organizations'],
+                        ['/configure/', 'Overview'],
                         ['/configure/organization-types', 'Organization Types'],
                         ['/configure/user-types', 'User Types']
                     ]
@@ -47,7 +46,7 @@ module.exports = {
                         ['/objects/organization', 'Organization'],
                         ['/objects/organization-type', 'Organization Type'],
                         ['/objects/organization-type-site-settings', 'Organization Type Site Settings'],
-                        ['/objects/user-type', 'User Type']
+                        ['/objects/user-type', 'User Type'],
                         ['/objects/user', 'User']
                     ]
                 },
