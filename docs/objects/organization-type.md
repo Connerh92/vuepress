@@ -77,6 +77,7 @@ foreach ($siteSettings as $site) {
 [string]: http://www.php.net/language.types.string
 [null]: http://www.php.net/language.types.null
 [array]: http://www.php.net/language.types.array
+[DateTime]: http://php.net/manual/en/class.datetime.php "DateTime"
 
 [Field Layout]: https://docs.craftcms.com/api/v3/craft-models-fieldlayout.html "Field Layout"
 

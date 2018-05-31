@@ -18,5 +18,6 @@ The following properties are available:
 [string]: http://www.php.net/language.types.string
 [null]: http://www.php.net/language.types.null
 [array]: http://www.php.net/language.types.array
+[DateTime]: http://php.net/manual/en/class.datetime.php
 
 [Active Record]: https://www.yiiframework.com/doc/api/2.0/yii-db-activerecord "Active Record"
