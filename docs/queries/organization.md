@@ -6,12 +6,12 @@ The Organization Query is an extension of a native [Element Query].  In addition
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `state`               | [string]|[string][]|[null]                       | The organization's state (custom defined)
-| `user`                | [array]|[[array]]|[string]|[string][]|[integer]|[integer][]|[User]|[User][]|[null]                       | The organization's state (custom defined)
-| `userGroup`           | [array]|[[array]]|[string]|[string][]|[integer]|[integer][]|[User Group]|[User Group][]|[null]                       | The organization's state (custom defined)
-| `userType`            | [array]|[[array]]|[string]|[string][]|[integer]|[integer][]|[User Type]|[User Type][]|[null]                       | The organization's state (custom defined)
-| `organizationType`    | [array]|[[array]]|[string]|[string][]|[integer]|[integer][]|[Organization Type]|[Organization Type][]|[null]                       | The organization's state (custom defined)
-| `dateJoined`          | [string]|[array]|[DateTime]|[null]                     | The date the organization joined
+| `state`               | [string],[string][],[null]                       | The organization's state (custom defined)
+| `user`                | [array],[[array]],[string],[string][],[integer],[integer][],[User],[User][],[null]                       | The organization's state (custom defined)
+| `userGroup`           | [array],[[array]],[string],[string][],[integer],[integer][],[User Group],[User Group][],[null]                       | The organization's state (custom defined)
+| `userType`            | [array],[[array]],[string],[string][],[integer],[integer][],[User Type],[User Type][],[null]                       | The organization's state (custom defined)
+| `organizationType`    | [array],[[array]],[string],[string][],[integer],[integer][],[Organization Type],[Organization Type][],[null]                       | The organization's state (custom defined)
+| `dateJoined`          | [string],[array],[DateTime],[null]                     | The date the organization joined
 
 
 [integer]: http://www.php.net/language.types.integer "Integer"

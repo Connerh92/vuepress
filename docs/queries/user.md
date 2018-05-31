@@ -10,7 +10,7 @@ All of the standard [User Query] params are are available.  In addition, the fol
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `value`               | [array]|[[array]]|[string]|[string][]|[integer]|[integer][]|[Organization]|[Organization][]|[null] | The organization criteria that may be involved in this query
+| `value`               | [array],[[array]],[string],[string][],[integer],[integer][],[Organization],[Organization][],[null] | The organization criteria that may be involved in this query
 
 ## Usage
 
@@ -42,6 +42,7 @@ $query = User::find()->setOrganization([
 ]);
 ```
 :::
+
 [integer]: http://www.php.net/language.types.integer "Integer"
 [array]: http://www.php.net/language.types.array "Array"
 [string]: http://www.php.net/language.types.string "String"

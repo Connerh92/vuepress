@@ -90,11 +90,11 @@ foreach ($types as $type) {
 
 ### `getType( $identifier )`
 
-Returns: [Organization Type] | [null]
+Returns: [Organization Type],[null]
 
 | Argument          | Accepts                   | Description
 | ----------        | ----------                | ----------
-| `$identifier`     | [string]|[integer]|[null] | [Organization Type] criteria
+| `$identifier`     | [string],[integer],[null] | [Organization Type] criteria
 
 ::: code
 ```twig
@@ -118,7 +118,7 @@ $type = $element->getType('technology');
 
 ### `getPrimaryType()`
 
-Returns: [Organization Type]|[null]
+Returns: [Organization Type],[null]
 
 ::: code
 ```twig
@@ -141,7 +141,7 @@ $type = $element->getPrimaryType();
 
 ### `getActiveType()`
 
-Returns: [Organization Type]|[null]
+Returns: [Organization Type],[null]
 
 ::: code
 ```twig
