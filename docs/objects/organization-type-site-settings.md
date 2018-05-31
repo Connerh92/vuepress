@@ -12,8 +12,8 @@ The following properties are available:
 | `typeId`              | [integer]                             | The organization's state (custom defined)
 | `siteId`              | [integer]                             | The date the organization joined
 | `hasUrls`             | [boolean]                             | The date the organization joined
-| `uriFormat`           | [string] | [null]                     | The date the organization joined
-| `template`            | [string] | [null]                     | The date the organization joined
+| `uriFormat`           | [string]|[null]                     | The date the organization joined
+| `template`            | [string]|[null]                     | The date the organization joined
 
 
 ## Public Methods

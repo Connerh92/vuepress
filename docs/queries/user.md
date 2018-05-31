@@ -10,7 +10,7 @@ All of the standard [User Query] params are are available.  In addition, the fol
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `value`               | [array] | [[array]] | [string] | [string][] | [integer] | [integer][] | [Organization] | [Organization][] | [null] | The organization criteria that may be involved in this query
+| `value`               | [array]|[[array]]|[string]|[string][]|[integer]|[integer][]|[Organization]|[Organization][]|[null] | The organization criteria that may be involved in this query
 
 ## Usage
 
