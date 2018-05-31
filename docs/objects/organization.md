@@ -171,7 +171,7 @@ $type = $element->getActiveType();
 
 [User]: https://docs.craftcms.com/api/v3/craft-elements-user.html "User Element"
 [User Query]: https://docs.craftcms.com/api/v3/craft-elements-db-userquery.html "User Query"
-[Organization Type Query]: /queries/organization-type-query "Organization Type Query"
+[Organization Type Query]: /queries/organization-type "Organization Type Query"
 
 [Organization Type]: organization-type "Organization Type"
 [Organization Element]: organization "Organization"

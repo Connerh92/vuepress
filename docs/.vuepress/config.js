@@ -46,7 +46,17 @@ module.exports = {
                     children: [
                         ['/objects/organization', 'Organization'],
                         ['/objects/organization-type', 'Organization Type'],
-                        // ['/objects/user-type', 'User Type']
+                        ['/objects/organization-type-site-settings', 'Organization Type Site Settings'],
+                        ['/objects/user-type', 'User Type']
+                    ]
+                },
+                {
+                    title: 'Queries',
+                    collapsable: false,
+                    children: [
+                        ['/queries/organization', 'Organization Query'],
+                        ['/queries/organization-type', 'Organization Type Query'],
+                        ['/queries/user', 'User Query']
                     ]
                 }
             ]
