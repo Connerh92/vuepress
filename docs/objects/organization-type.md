@@ -1,26 +1,27 @@
 # Organization Type
 
-While templating, you may access the following public attributes and methods on a [Organization Type].
+One may access the following public properties and methods on an [Organization Type].
 
-## Properties
+## Public Properties
 The following properties are available:
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `id`                  | `[integer]`                           | The organization type's Id
-| `handle`              | `[string]`                            | The organization type's reference name
-| `name`                | `[string]`                            | The organization type's human readable name
-| `fieldLayoutId`       | `[integer]`|`[null]`                  | The organization type's layout Id
+| `id`                  | [integer]                             | The organization type's Id
+| `handle`              | [string]                              | The organization type's reference name
+| `name`                | [string]                              | The organization type's human readable name
+| `fieldLayoutId`       | [integer] | [null]                    | The organization type's layout Id
+| `uid`                 | [string] | [null]                     | The unversally unique identifier
+| `dateCreated`         | [DateTime] | [null]                   | The date the organization type was created
+| `dateUpdated`         | [DateTime] | [null]                   | The date the organization type was last updated
 
-[integer]: http://www.php.net/language.types.integer
-[string]: http://www.php.net/language.types.string
-[null]: http://www.php.net/language.types.null
-[array]: http://www.php.net/language.types.array
 
-## Methods
+## Public Methods
 The following methods are available:
 
-### `getFieldLayout(): [Field Layout]|null`
+### `getFieldLayout()`
+
+Returns: [Field Layout]
 
 ::: code
 ```twig
@@ -42,7 +43,9 @@ $fieldLayout = $object->getFieldLayout();
 
 
 
-### `object.getSiteSettings(): [Organization Type Site Settings][]`
+### `object.getSiteSettings()`
+
+Returns: an array of [Organization Type Site Settings]
 
 ::: code
 ```twig
@@ -70,6 +73,12 @@ foreach ($siteSettings as $site) {
 ```
 :::
 
-[Organization Type]: /objects/organization-type/ "Organization Type"
+[integer]: http://www.php.net/language.types.integer
+[string]: http://www.php.net/language.types.string
+[null]: http://www.php.net/language.types.null
+[array]: http://www.php.net/language.types.array
+
 [Field Layout]: https://docs.craftcms.com/api/v3/craft-models-fieldlayout.html "Field Layout"
-[Organization Type Site Settings]: /object/organization-type-site-settings/ "Organization Type Site Settings"
+
+[Organization Type]: organization-type "Organization Type"
+[Organization Type Site Settings]: organization-type-site-settings "Organization Type Site Settings"

@@ -1,6 +1,6 @@
 # Organization
 
-While templating, you may access the following public attributes and methods on a [Organization Element].
+One may access the following public properties and methods on an [Organization Element].
 
 ## Public Properties
 All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html#public-properties) public properties are available.  In addition, the following properties are also available:
@@ -9,8 +9,6 @@ All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-elemen
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
 | `state`               | [string] | [null]                       | The organization's state (custom defined)
 | `dateJoined`          | [DateTime] | [null]                     | The date the organization joined
-
-
 
 ## Public Methods
 All of the standard [Element](https://docs.craftcms.com/api/v3/craft-base-element.html#public-methods) public methods are available.  In addition, the following methods are also available:
@@ -170,10 +168,12 @@ $type = $element->getActiveType();
 [null]: http://www.php.net/language.types.null "Null"
 [DateTime]: http://php.net/manual/en/class.datetime.php "DateTime"
 
+
 [User]: https://docs.craftcms.com/api/v3/craft-elements-user.html "User Element"
 [User Query]: https://docs.craftcms.com/api/v3/craft-elements-db-userquery.html "User Query"
-[Organization Type Query]: /query/organization-type-query/ "Organization Type Query"
-[Organization Type]: /objects/organization-type/ "Organization Type"
-[Organization Element]: /objects/organization/ "Organization"
+[Organization Type Query]: /queries/organization-type-query "Organization Type Query"
+
+[Organization Type]: organization-type "Organization Type"
+[Organization Element]: organization "Organization"
 
 

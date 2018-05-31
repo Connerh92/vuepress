@@ -55,5 +55,13 @@ module.exports = {
             twig: 'Twig',
             php: 'PHP'
         }
+    },
+    markdown: {
+        anchor: {
+            level: [2, 3, 4]
+        },
+        toc: {
+            includeLevel: [3]
+        }
     }
 }
