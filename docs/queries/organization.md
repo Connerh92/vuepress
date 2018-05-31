@@ -13,7 +13,6 @@ The Organization Query is an extension of a native [Element Query].  In addition
 | `organizationType`    | [string], [string][], [integer], [integer][], [Organization Type], [Organization Type][], [null]    | The the organization type(s) that the result's must be associated to
 | `dateJoined`          | [string], [DateTime], [null]                                                                    | The date the organization joined
 
-
 [integer]: http://www.php.net/language.types.integer "Integer"
 [array]: http://www.php.net/language.types.array "Array"
 [string]: http://www.php.net/language.types.string "String"
