@@ -10,8 +10,8 @@ Returns an [Organization Element]
 
 | Argument          | Accepts                   | Description
 | ----------        | ----------                | ----------
-| `$identifier`     | [string], [integer], [Organization] | A unique organization identifier
-| `$siteId`         | [integer], [null]         | The [Site] Id that the organization must belong to
+| `$identifier`     | [string], [integer], [Organization] | A unique [Organization] identifier
+| `$siteId`         | [integer], [null]         | The [Site] Id that the [Organization] must belong to
 
 ::: code
 ```twig
@@ -77,6 +77,18 @@ $element = Organizations::getInstance()->getElements()->create([
 ```
 :::
 
+
+[integer]: http://www.php.net/language.types.integer
+[integer\[\]]: http://www.php.net/language.types.integer
+[array]: http://www.php.net/language.types.array
+[string]: http://www.php.net/language.types.string
+[string\[\]]: http://www.php.net/language.types.string
+[null]: http://www.php.net/language.types.null
+
+
+[Site]: https://docs.craftcms.com/api/v3/craft-models-site.html
+
 [Organization Query]: ../queries/organization.md "Organization Query"
+[Organization]: ../objects/organization.md "Organization Element"
 [Organization Element]: ../objects/organization.md "Organization Element"
 [Organization Elements]: ../objects/organization.md "Organization Element"
