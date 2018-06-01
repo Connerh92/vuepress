@@ -38,10 +38,16 @@ module.exports = {
                     title: 'Templating',
                     collapsable: false,
                     children: [
-                        ['/templating/', 'Overview'],
-                        ['/templating/elements', 'Organization Elements'],
-                        ['/templating/organization-types', 'Organization Types'],
-                        ['/templating/user-types', 'User Types']
+                        ['/templating/', 'Overview']
+                    ]
+                },
+                {
+                    title: 'Services',
+                    collapsable: false,
+                    children: [
+                        ['/services/elements', 'Organization Elements'],
+                        ['/services/organization-types', 'Organization Types'],
+                        ['/services/user-types', 'User Types']
                     ]
                 },
                 {
