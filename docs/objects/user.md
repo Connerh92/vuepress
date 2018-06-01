@@ -47,5 +47,5 @@ foreach ($organizations as $organization) {
 [Active Record]: https://www.yiiframework.com/doc/api/2.0/yii-db-activerecord "Active Record"
 [User Element]: https://docs.craftcms.com/api/v3/craft-elements-user.html "User Element"
 
-[Organizations]: ../queries/organization.md
+[Organization Query]: ../queries/organization.md
 [Organizations]: organization.md

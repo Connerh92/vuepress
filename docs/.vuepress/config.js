@@ -35,6 +35,16 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'Templating',
+                    collapsable: false,
+                    children: [
+                        ['/templating/', 'Overview'],
+                        ['/templating/elements', 'Organization Elements'],
+                        ['/templating/organization-types', 'Organization Types'],
+                        ['/templating/user-types', 'User Types']
+                    ]
+                },
+                {
                     title: 'Objects',
                     collapsable: false,
                     children: [

@@ -1,9 +1,9 @@
 # Organization Type Query
 
-The Organization Type Query provides 
+The Organization Type Query supports all [Active Query] operations.  In addition, the following can be utilized:
  
 ## Params
-All of the standard [Active Record](https://www.yiiframework.com/doc/api/2.0/yii-db-activerecord) public properties are available.  In addition, the following properties are also available:
+All of the standard [Active Query](https://www.yiiframework.com/doc/api/2.0/yii-db-activequery#properties) public properties are available.  In addition, the following properties are also available:
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
@@ -23,5 +23,8 @@ All of the standard [Active Record](https://www.yiiframework.com/doc/api/2.0/yii
 [string\[\]]: http://www.php.net/language.types.string
 [null]: http://www.php.net/language.types.null
 [DateTime]: http://php.net/manual/en/class.datetime.php
+
+[Active Query]: https://www.yiiframework.com/doc/api/2.0/yii-db-activequery
+[Active Query]: https://www.yiiframework.com/doc/api/2.0/yii-db-activequery
 
 [Organization]: ../objects/organization.md

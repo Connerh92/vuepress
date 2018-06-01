@@ -1,6 +1,6 @@
 # Organization Query
 
-The Organization Query is an extension of a native [Element Query].  In addition, the following can be utilized:
+The Organization Query supports all [Element Query] operations.  In addition, the following can be utilized:
 
 ## Params
 
