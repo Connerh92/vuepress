@@ -130,5 +130,5 @@ foreach ($siteSettings as $settings) {
 [null]: http://www.php.net/language.types.null
 [array]: http://www.php.net/language.types.array
 
-[Site]: https://docs.craftcms.com/api/v3/craft-models-site.html "Site"
-[Organization Type]: organization-type "Organization Type"
+[Site]: https://docs.craftcms.com/api/v3/craft-models-site.html
+[Organization Type]: organization-type.md

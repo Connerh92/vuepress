@@ -162,18 +162,16 @@ $type = $element->getActiveType();
 ```
 :::
 
-[integer]: http://www.php.net/language.types.integer "Integer"
-[array]: http://www.php.net/language.types.array "Array"
-[string]: http://www.php.net/language.types.string "String"
-[null]: http://www.php.net/language.types.null "Null"
-[DateTime]: http://php.net/manual/en/class.datetime.php "DateTime"
+[integer]: http://www.php.net/language.types.integer
+[array]: http://www.php.net/language.types.array
+[string]: http://www.php.net/language.types.string
+[null]: http://www.php.net/language.types.null
+[DateTime]: http://php.net/manual/en/class.datetime.php
 
 
-[User]: https://docs.craftcms.com/api/v3/craft-elements-user.html "User Element"
-[User Query]: https://docs.craftcms.com/api/v3/craft-elements-db-userquery.html "User Query"
-[Organization Type Query]: /queries/organization-type "Organization Type Query"
+[User]: https://docs.craftcms.com/api/v3/craft-elements-user.html
+[User Query]: https://docs.craftcms.com/api/v3/craft-elements-db-userquery.html
+[Organization Type Query]: /queries/organization-type
 
-[Organization Type]: organization-type "Organization Type"
-[Organization Element]: organization "Organization"
-
-
+[Organization Type]: organization-type.md
+[Organization Element]: organization.md

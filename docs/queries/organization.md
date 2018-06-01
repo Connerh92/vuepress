@@ -25,10 +25,11 @@ The Organization Query is an extension of a native [Element Query].  In addition
 [User\[\]]: https://docs.craftcms.com/api/v3/craft-elements-user.html "User"
 [User Group]: https://docs.craftcms.com/api/v3/craft-models-usergroup.html "User Group"
 [User Group\[\]]: https://docs.craftcms.com/api/v3/craft-models-usergroup.html "User Group"
-[User Type]: /objects/user-type "User Type"
-[User Type\[\]]: /objects/user-type "User Type"
-[Organization Type]: /objects/organization-type "Organization Type"
-[Organization Type\[\]]: /objects/organization-type "Organization Type"
 
-[Organization]: /objects/organization "Organization"
-[Element Query]: https://docs.craftcms.com/v3/element-queries.html "Element Query"
+[User Type]: ../objects/user-type.md
+[User Type\[\]]: ../objects/user-type.md
+[Organization Type]: ../objects/organization-type.md
+[Organization Type\[\]]: ../objects/organization-type.md
+
+[Organization]: ../objects/organization.md
+[Element Query]: https://docs.craftcms.com/v3/element-queries.html

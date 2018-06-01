@@ -19,6 +19,6 @@ board (<- a [User Type]) of Spark Technologies.   This is what Rudy's [User Type
 | Flipbox Enterprises   | X             |               |               
 | Spark Technologies    |               | X             | X             
 
-[Organization]: /objects/organization "Organization"
-[User Types]: /objects/user-type "User Type"
-[User Type]: /objects/user-type "User Type"
+[Organization]: ../objects/organization.md
+[User Types]: ../objects/user-type.md
+[User Type]: ../objects/user-type.md

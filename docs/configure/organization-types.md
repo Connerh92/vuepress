@@ -20,7 +20,7 @@ One may opt to classify [Organizations] using a [Category] or other relation whi
 
 [Category]: https://docs.craftcms.com/api/v3/craft-elements-category.html "Category"
 
-[Organizations]: /objects/organization "Organization"
-[Organization]: /objects/organization "Organization"
-[Organization Types]: /objects/organization-type "Organization Type"
-[Organization Type]: /objects/organization-type "Organization Type"
+[Organizations]: ../objects/organization.md
+[Organization]: ../objects/organization.md
+[Organization Types]: ../objects/organization-type.md
+[Organization Type]: ../objects/organization-type.md

@@ -43,13 +43,14 @@ $query = User::find()->setOrganization([
 ```
 :::
 
-[integer]: http://www.php.net/language.types.integer "Integer"
-[integer\[\]]: http://www.php.net/language.types.integer "Integer"
-[array]: http://www.php.net/language.types.array "Array"
-[string]: http://www.php.net/language.types.string "String"
-[string\[\]]: http://www.php.net/language.types.string "String"
-[null]: http://www.php.net/language.types.null "Null"
+[integer]: http://www.php.net/language.types.integer
+[integer\[\]]: http://www.php.net/language.types.integer
+[array]: http://www.php.net/language.types.array
+[string]: http://www.php.net/language.types.string
+[string\[\]]: http://www.php.net/language.types.string
+[null]: http://www.php.net/language.types.null
 
-[Organization]: /objects/organization "Organization"
-[Organization\[\]]: /objects/organization "Organization"
+[Organization]: ../objects/organization.md
+[Organization\[\]]: ../objects/organization.md
+
 [User Query]: https://docs.craftcms.com/v3/element-query-params/user-query-params.html "User Query"

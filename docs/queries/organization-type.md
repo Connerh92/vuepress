@@ -16,12 +16,12 @@ All of the standard [Active Record](https://www.yiiframework.com/doc/api/2.0/yii
 | `dateCreated`         | [string], [array], [DateTime], [null]                                                | The creation date that the resulting organization types must have
 | `dateUpdated`         | [string], [array], [DateTime], [null]                                                | The updated date that the resulting organization types must have
 
-[integer]: http://www.php.net/language.types.integer "Integer"
-[integer\[\]]: http://www.php.net/language.types.integer "Integer"
-[array]: http://www.php.net/language.types.array "Array"
-[string]: http://www.php.net/language.types.string "String"
-[string\[\]]: http://www.php.net/language.types.string "String"
-[null]: http://www.php.net/language.types.null "Null"
+[integer]: http://www.php.net/language.types.integer
+[integer\[\]]: http://www.php.net/language.types.integer
+[array]: http://www.php.net/language.types.array
+[string]: http://www.php.net/language.types.string
+[string\[\]]: http://www.php.net/language.types.string
+[null]: http://www.php.net/language.types.null
 [DateTime]: http://php.net/manual/en/class.datetime.php
 
-[Organization]: /objects/organization "Organization"
+[Organization]: ../objects/organization.md
