@@ -10,7 +10,7 @@ All of the standard [User Query] params are are available.  In addition, the fol
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `organization`        | [string], [string]\[\], [integer], [integer]\[\], [Organization], [Organization]\[\], [null] | The organization criteria that the resulting users must have
+| `organization`        | [string], [string\[\]], [integer], [integer\[\]], [Organization], [Organization\[\]], [null] | The organization criteria that the resulting users must have
 
 ## Usage
 
@@ -20,7 +20,7 @@ Returns: [User Query]
 
 | Argument          | Accepts                   | Description
 | ----------        | ----------                | ----------
-| `$value`          | [string], [string]\[\], [integer], [integer]\[\], [Organization], [Organization]\[\], [null] | The organization criteria that the resulting users must have
+| `$value`          | [string], [string\[\]], [integer], [integer\[\]], [Organization], [Organization\[\]], [null] | The organization criteria that the resulting users must have
 
 
 ::: code
@@ -44,9 +44,12 @@ $query = User::find()->setOrganization([
 :::
 
 [integer]: http://www.php.net/language.types.integer "Integer"
+[integer\[\]]: http://www.php.net/language.types.integer "Integer"
 [array]: http://www.php.net/language.types.array "Array"
 [string]: http://www.php.net/language.types.string "String"
+[string\[\]]: http://www.php.net/language.types.string "String"
 [null]: http://www.php.net/language.types.null "Null"
 
 [Organization]: /objects/organization "Organization"
+[Organization\[\]]: /objects/organization "Organization"
 [User Query]: https://docs.craftcms.com/v3/element-query-params/user-query-params.html "User Query"
