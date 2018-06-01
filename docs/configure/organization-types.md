@@ -22,5 +22,5 @@ One may opt to classify [Organizations] using a [Category] or other relation whi
 
 [Organizations]: /objects/organization "Organization"
 [Organization]: /objects/organization "Organization"
-[Organization Type]: /objects/organization-type "Organization Type"
+[Organization Types]: /objects/organization-type "Organization Type"
 [Organization Type]: /objects/organization-type "Organization Type"

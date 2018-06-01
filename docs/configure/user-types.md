@@ -14,7 +14,7 @@ Common usages of [User Types] are:
 Rudy Fruity is an executive; Rudy is the CEO (<- a [User Type]) of Flipbox Enterprises.  Rudy is also a consultant (<- a [User Type]) and on the 
 board (<- a [User Type]) of Spark Technologies.   This is what Rudy's [User Type] associations would look like for each company:
 
-| Organization          | CEO           | Consultant    | Board
+|                       | CEO           | Consultant    | Board
 | --------------------- | :-----------: | :-----------: | :-----------: 
 | Flipbox Enterprises   | X             |               |               
 | Spark Technologies    |               | X             | X             

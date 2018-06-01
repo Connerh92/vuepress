@@ -16,18 +16,13 @@ module.exports = {
         sidebar: {
             '/': [
                 {
-                    title: 'Introduction',
-                    collapsable: false,
-                    // children: [
-                    //     ''
-                    // ]
-                },
-                {
-                    title: 'Installing / Updating',
+                    title: 'Getting Started',
                     collapsable: false,
                     children: [
+                        ['/', 'Introduction'],
                         'requirements',
-                        'installation'
+                        ['installation', 'Installation / Upgrading'],
+                        'support'
                     ]
                 },
                 {
