@@ -26,7 +26,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Configuring',
+                    title: 'Configure',
                     collapsable: false,
                     children: [
                         ['/configure/', 'Overview'],

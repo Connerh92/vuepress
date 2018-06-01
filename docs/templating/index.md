@@ -1,21 +1,29 @@
 # Twig Tags
 
-The following [Twig][] [Tags][] are available:
+The following [Twig Tags] are available:
 
-### [`craft.organizations.elements`](https://gitter.im/flipboxfactory/organizations)
-*The `craft.organizations.elements` variable enables interaction with Rating entries.*
+### [`craft.organizations.elements`]
+The [`craft.organizations.elements`] tag enables the retrieval of [Organization Elements].
 
-### `craft.organizations.organizationTypes`
-The `craft.organizations.colleorganizationTypesction` variable enables interaction with Rating collections.
+### [`craft.organizations.organizationTypes`]
+The [`craft.organizations.organizationTypes`] tag enables the retrieval of [Organization Types].
 
-### `craft.organizations.users`
-The `craft.organizations.users` variable enables interaction with Rating collections.
+### [`craft.organizations.userTypes`]
+The [`craft.organizations.userTypes`] tag enables the retrieval of [User Types].
 
-### `craft.organizations.useTypes`
-The `craft.organizations.useTypes` variable enables interaction with Rating collections.
+### [`craft.organizations.users`]
+The [`craft.organizations.users`] tag enables the retrieval of [Users].
 
-### `craft.organizations.settings`
-The `craft.organizations.settings` variable enables interaction with Organization plugin settings.
+### [`craft.organizations.settings`]
+The [`craft.organizations.settings`] variable returns a Organization plugin [settings model].
 
-[Twig]: http://twig.sensiolabs.org/ "Twig is a modern template engine for PHP"
-[Tags]: http://twig.sensiolabs.org/doc/tags/index.html "Twig Tags"
+[Twig tags]: http://twig.sensiolabs.org/ "Twig is a modern template engine for PHP"
+
+[`craft.organizations.elements`]: elements.md
+[`craft.organizations.organizationTypes`]: organization-types.md
+[`craft.organizations.userTypes`]: user-types.md
+[`craft.organizations.users`]: users.md
+[`craft.organizations.settings`]: ../objects/settings.md
+
+[settings model]: ../objects/settings.md
+[Organization Elements]: ../objects/organization.md

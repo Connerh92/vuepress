@@ -1,4 +1,4 @@
-# Organization Elements
+# User Elements
 
 The `craft.organizations.elements` tag enables interaction with [Organization Elements].  Commonly, these tags are used to retrieve one or many [Organization Elements].
 
