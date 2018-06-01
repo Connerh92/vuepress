@@ -10,7 +10,7 @@ All of the standard [User Query] params are are available.  In addition, the fol
 
 | Property              | Type                                  | Description
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
-| `organization`        | [string], [string][], [integer], [integer][], [Organization], [Organization][], [null] | The organization criteria that the resulting users must have
+| `organization`        | [string], [string]\[\], [integer], [integer]\[\], [Organization], [Organization]\[\], [null] | The organization criteria that the resulting users must have
 
 ## Usage
 
@@ -20,7 +20,7 @@ Returns: [User Query]
 
 | Argument          | Accepts                   | Description
 | ----------        | ----------                | ----------
-| `$value`          [string], [string][], [integer], [integer][], [Organization], [Organization][], [null] | The organization criteria that the resulting users must have
+| `$value`          | [string], [string]\[\], [integer], [integer]\[\], [Organization], [Organization]\[\], [null] | The organization criteria that the resulting users must have
 
 
 ::: code
