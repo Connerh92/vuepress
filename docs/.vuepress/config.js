@@ -8,6 +8,8 @@ module.exports = {
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
+        search: true,
+        searchMaxSuggestions: 10,
         nav: [
             {text: 'Details', link: 'https://github.com/craftcms/docs/'},
             {text: 'Changelog', link: 'https://github.com/craftcms/docs/'},
