@@ -1,6 +1,6 @@
 # Organization Elements
 
-The `craft.organizations.elements` tag enables interaction with [Organization Elements].  Commonly, these tags are used to retrieve one or many [Organization Elements].
+This service is used to manage one or many [Organization Elements].
 
 [[toc]]
 
@@ -22,8 +22,8 @@ Returns an [Organization Element]
 ```php
 use flipbox\organizations\Organizations;
 
-$element = Organizations::getInstance()->getElements()->find(1);
-$element = Organizations::getInstance()->getElements()->find('flipbox');
+$element = Organizations::getInstance()->getOrganizations()->find(1);
+$element = Organizations::getInstance()->getOrganizations()->find('flipbox');
 ```
 :::
 
@@ -38,7 +38,7 @@ Returns a [Organization Query].
 
 ::: code
 ```twig
-{% set element = craft.organizations.elements.getQuery({
+{% set query = craft.organizations.elements.getQuery({
     id: 1
 }) %}
 ```
@@ -46,7 +46,7 @@ Returns a [Organization Query].
 ```php
 use flipbox\organizations\Organizations;
 
-$element = Organizations::getInstance()->getElements()->getQuery([
+$element = Organizations::getInstance()->getOrganizations()->getQuery([
     'id' => 1
 ]);
 ```
@@ -71,7 +71,7 @@ Returns a new [Organization Element] (but does not save).
 ```php
 use flipbox\organizations\Organizations;
 
-$element = Organizations::getInstance()->getElements()->create([
+$element = Organizations::getInstance()->getOrganizations()->create([
     title: 'Flipbox Digital'
 ]);
 ```

@@ -13,6 +13,28 @@ The Organization Query supports all [Element Query] operations.  In addition, th
 | `organizationType`    | [string], [string\[\]], [integer], [integer\[\]], [Organization Type], [Organization Type\[\]], [null]    | The the organization type(s) that the result's must be associated to
 | `dateJoined`          | [string], [DateTime], [null]                                                                    | The date the organization joined
 
+## Chain Setting
+
+All of the params (above) can also be accessed and chain-set.  The methods are named the same as the property.
+
+Here is an example:
+
+::: code
+
+```twig
+{% set query = craft.organizations.elements.getQuery() %}
+{% do query.state('foo').user(currentUser) %}
+```
+
+```php
+use flipbox\organizations\Organizations;
+
+$query = Organizations::getInstance()->getOrganizations()->getQuery()
+    ->state('foo')
+    ->user(\Craft::$app->getUser()->getIdentity());
+```
+:::
+
 [integer]: http://www.php.net/language.types.integer "Integer"
 [integer\[\]]: http://www.php.net/language.types.integer "Integer"
 [array]: http://www.php.net/language.types.array "Array"

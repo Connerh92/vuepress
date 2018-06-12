@@ -4,6 +4,14 @@
 We have attached an extra `organizations` attribute to the native [User Element].  You can utilize this attribute on any [User Element] to get all of the associated [Organizations].
 :::
 
+## Public Properties
+All of the standard [User Element](https://docs.craftcms.com/api/v3/craft-elements-user.html#public-properties) public properties are available.  In addition, the following properties are also available:
+
+| Property              | Type                                  | Description
+| --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
+| `organization`        | [array] , [Organization Query]        | [Organization Query] criteria
+
+
 ## Public Methods
 All of the standard [User Element](https://docs.craftcms.com/api/v3/craft-elements-user.html#public-methods) public methods are available.  In addition, the following methods are also available:
 

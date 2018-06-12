@@ -47,6 +47,7 @@ module.exports = {
                     children: [
                         ['/services/elements', 'Organization Elements'],
                         ['/services/organization-types', 'Organization Types'],
+                        ['/services/users', 'User Elements'],
                         ['/services/user-types', 'User Types']
                     ]
                 },
@@ -57,6 +58,7 @@ module.exports = {
                         ['/objects/organization', 'Organization'],
                         ['/objects/organization-type', 'Organization Type'],
                         ['/objects/organization-type-site-settings', 'Organization Type Site Settings'],
+                        ['/objects/settings', 'Settings'],
                         ['/objects/user-type', 'User Type'],
                         ['/objects/user', 'User']
                     ]
@@ -67,7 +69,9 @@ module.exports = {
                     children: [
                         ['/queries/organization', 'Organization Query'],
                         ['/queries/organization-type', 'Organization Type Query'],
-                        ['/queries/user', 'User Query']
+                        ['/queries/user', 'User Query'],
+                        ['/queries/user-type', 'User Type Query']
+
                     ]
                 }
             ]

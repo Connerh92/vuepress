@@ -12,34 +12,37 @@ All of the standard [User Query] params are are available.  In addition, the fol
 | --------------------- | ------------------------------------- | ---------------------------------------------------------------------------------
 | `organization`        | [string], [string\[\]], [integer], [integer\[\]], [Organization], [Organization\[\]], [null] | The organization criteria that the resulting users must have
 
-## Usage
+::: tip Note
+The organization criteria (above) can optionally accept three individual criteria:
+```php
+{
+    id: 1, // The organization identifier(s)
+    organizationType: [1,2], // The organization type identifier(s)
+    userType: [1,2] // The user type identifier(s)
+}
+```
+:::
 
-### `setOrganization( $value )`
 
-Returns: [User Query]
+## Chain Setting
 
-| Argument          | Accepts                   | Description
-| ----------        | ----------                | ----------
-| `$value`          | [string], [string\[\]], [integer], [integer\[\]], [Organization], [Organization\[\]], [null] | The organization criteria that the resulting users must have
+All of the params (above) can also be accessed and chain-set.  The methods are named the same as the property.
 
+Here is an example:
 
 ::: code
+
 ```twig
-{% set query = craft.users.find({
-    organization: {
-        id: 1,
-        organizationType: [1,2],
-        userType: [1,2]
-    }
-}) %}
+{% set query = craft.organizations.users.getQuery() %}
+{% do query.organization(1).firstName('Foo') %}
 ```
 
 ```php
-$query = User::find()->setOrganization([
-    id => 1,
-    organizationType => [1,2],
-    userType => [1,2]
-]);
+use flipbox\organizations\Organizations;
+
+$query = Organizations::getInstance()->getUsers()->getQuery()
+    ->organization(1)
+    ->firstName('Foo');
 ```
 :::
 
