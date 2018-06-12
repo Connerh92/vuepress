@@ -3,19 +3,19 @@
 The following [Twig Tags] are available:
 
 ### [`craft.organizations.elements`]
-The [`craft.organizations.elements`] tag enables the retrieval of [Organization Elements] via the [Elements Service].
+This tag enables the retrieval of [Organization Elements] via the [Elements Service].
 
 ### [`craft.organizations.organizationTypes`]
-The [`craft.organizations.organizationTypes`] tag enables the retrieval of [Organization Types] via the [Organization Types Service].
+This tag enables the retrieval of [Organization Types] via the [Organization Types Service].
 
 ### [`craft.organizations.userTypes`]
-The [`craft.organizations.userTypes`] tag enables the retrieval of [User Types] via the [User Types Service].
+This tag enables the retrieval of [User Types] via the [User Types Service].
 
 ### [`craft.organizations.users`]
-The [`craft.organizations.users`] tag enables the retrieval of [Users] via the [User Service].
+This tag enables the retrieval of [Users] via the [User Service].
 
 ### [`craft.organizations.settings`]
-The [`craft.organizations.settings`] variable returns a Organization plugin [settings model].
+This variable returns a Organization plugin [settings model].
 
 [Twig tags]: http://twig.sensiolabs.org/ "Twig is a modern template engine for PHP"
 
